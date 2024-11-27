@@ -1,84 +1,112 @@
-/* style.css */
-body {
-    font-family: 'Poppins', sans-serif;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .main {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .logo {
-    width: 150px;
-    margin: 20px auto;
-    display: block;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    color: #000;
-  }
-  
-  h1 span {
-    color: #4A4AFF;
-  }
-  
-  .card {
-    display: inline-block;
-    width: 45%;
-    margin: 20px;
-    vertical-align: top;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    overflow: hidden;
-    text-align: left;
-  }
-  
-  .card img.tile-image {
+    font-family: Arial, sans-serif;
+}
+.main{
     width: 100%;
     height: auto;
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    color: #333;
-    margin: 10px;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    color: #666;
-    padding: 0 10px 10px;
-  }
-  
-  footer {
-    margin-top: 20px;
-    background: #f4f4f4;
-    padding: 10px 0;
-  }
-  
-  footer p {
-    font-size: 1rem;
-    color: #666;
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .card {
-      width: 90%;
-      margin: 20px auto;
+    max-width: 840px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.main .logo{
+    width: 700px;
+    height: auto;
+    margin-bottom: 48px;
+    max-width: 780px;
+}
+ h1{
+    font-size: 15em;
+    padding-left: 60px;
+    margin: 45px auto;
+    font-style: normal;
+}
+section{
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    gap: 1300px;
+    margin-bottom: 900px;
+}
+
+section .right.card{
+    display: flex;
+    justify-content: right;
+}
+section .left.card{
+    display: flex;
+    justify-content: left;
+}
+
+section .card{
+    display: flex;
+    width: 50%;
+    max-width: 800px;
+    align-items: center; 
+    padding: 50 50 50 40px;
+}
+section .card img{
+ font-size: 10em;
+}
+section .card .content{
+    display: grid;
+    width: 90%;
+    height: auto;
+    margin: 35px;
+    margin-left: 35px;
+}
+
+section .card .content h2{
+   font-size: 6em;
+   font-style: normal;
+   margin-bottom: 20px;
+}
+
+section .card .content p{
+    font-size: 30px;
+    font-style: normal;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+footer p{
+    display: flex;
+    justify-content: end;
+    color: darkblue;
+    font-weight: 600;
+    padding: 0 40px;
+}
+
+@media (max-width: 780px){
+    .main .logo{
+        width: 100px;
+        height: auto;
     }
-  
-    h1 {
-      font-size: 1.5rem;
+
+    .main h1{
+        margin: auto;
+        padding-right: 15px;
+        font-size: 2em;
     }
-  
-    footer {
-      padding: 20px;
+
+    section{
+        display: grid;
     }
-  }
-  
+
+    section .card{
+        display: grid;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+}
