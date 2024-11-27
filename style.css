@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;
     max-width: 840px;
-    padding: 40px;
+    padding: 70px;
     font-family: Arial, sans-serif;
 }
 
@@ -19,9 +19,9 @@
     max-width: 780px;
 }
  h1{
-    font-size: 15em;
-    padding-left: 60px;
-    margin: 45px auto;
+    font-size: 20em;
+    padding-left: 80px;
+    margin: 60px auto;
     font-style: normal;
 }
 section{
@@ -43,19 +43,20 @@ section .left.card{
 
 section .card{
     display: flex;
-    width: 50%;
-    max-width: 800px;
+    width: 90%;
+    max-width: 900px;
     align-items: center; 
-    padding: 50 50 50 40px;
+    padding: 50 50 50 400px;
 }
 section .card img{
- font-size: 10em;
+ font-size: 30em;
+ margin-bottom: 90px;
 }
 section .card .content{
     display: grid;
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: 35px;
+    margin: 80px;
     margin-left: 35px;
 }
 
@@ -66,7 +67,7 @@ section .card .content h2{
 }
 
 section .card .content p{
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
 }
 
